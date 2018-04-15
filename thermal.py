@@ -101,7 +101,7 @@ font = pygame.font.Font(None, 30)
 # height = 240
 # width = 320
 height = 400
-width = 400
+width = 600
 
 
 #initialize the sensor and environment
