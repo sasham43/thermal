@@ -77,6 +77,7 @@ class pyscope :
         self.screen.fill((0, 0, 0))
         # Initialise font support
         pygame.font.init()
+        pygame.mouse.set_visible(False)
         # Render the screen
         pygame.display.update()
 
@@ -97,8 +98,10 @@ scope = pyscope()
 pygame.init()
 
 font = pygame.font.Font(None, 30)
-height = 240
-width = 320
+# height = 240
+# width = 320
+height = 400
+width = 400
 
 
 #initialize the sensor and environment
