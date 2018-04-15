@@ -188,11 +188,11 @@ def menuButton( menuText, menuCenter, menuSize ) :
 # menuBack = menuButton('Back',(60,150),(120,60) )
 # menuExit = menuButton('Exit',(60,210),(120,60) )
 #
-# MAXtext = font.render('MAX', True, WHITE)
-# MAXtextPos = MAXtext.get_rect(center=(290,20))
+MAXtext = font.render('MAX', True, WHITE)
+MAXtextPos = MAXtext.get_rect(center=(290,20))
 #
-# MINtext = font.render('MIN', True, WHITE)
-# MINtextPos = MINtext.get_rect(center=(290,140))
+MINtext = font.render('MIN', True, WHITE)
+MINtextPos = MINtext.get_rect(center=(290,140))
 
 
 # streamCapture
