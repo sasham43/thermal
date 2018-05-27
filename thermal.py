@@ -132,7 +132,7 @@ MINTEMP = (73 - 32) / 1.8
 
 # initial high range of the sensor (this will be red on the screen)
 #MAXTEMP = 32
-MAXTEMP = (79 - 32) / 1.8
+MAXTEMP = (90 - 32) / 1.8
 
 
 # initialize camera
