@@ -148,7 +148,7 @@ lcdRect = lcd.get_rect()
 
 # heat surface
 heat = pygame.surface.Surface((width, height))
-heat = pygame.transform.rotate(heat, 270)
+heat = pygame.transform.rotate(heat, 90)
 
 # edge detect surface
 overlay = pygame.surface.Surface((width, height))
